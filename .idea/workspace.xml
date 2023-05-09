@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c837afe-f51c-44f2-9212-f05370ac8803" name="Changes" comment="Added User Service,Ratings Service, Hotel Service, Registry Server, API-GATEWAY">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_12.xml" afterDir="false" />
@@ -188,84 +186,11 @@
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_9_1.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_30.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/io/micro/apigateway/ApiGatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/test/java/io/micro/apigateway/ApiGatewayApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hotel-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hotel-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hotel-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hotel-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hotel-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hotel-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hotel-service/src/main/java/io/micro/hotelservice/HotelServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hotel-service/src/main/java/io/micro/hotelservice/controller/HotelController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hotel-service/src/main/java/io/micro/hotelservice/controller/StaffController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hotel-service/src/main/java/io/micro/hotelservice/entity/Hotel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hotel-service/src/main/java/io/micro/hotelservice/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hotel-service/src/main/java/io/micro/hotelservice/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hotel-service/src/main/java/io/micro/hotelservice/repository/HotelRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hotel-service/src/main/java/io/micro/hotelservice/service/HotelService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hotel-service/src/main/java/io/micro/hotelservice/service/impl/HotelServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hotel-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hotel-service/src/test/java/io/micro/hotelservice/HotelServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ratings-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ratings-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ratings-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ratings-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ratings-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ratings-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ratings-service/src/main/java/io/micro/ratingsservice/RatingsServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ratings-service/src/main/java/io/micro/ratingsservice/controller/RatingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ratings-service/src/main/java/io/micro/ratingsservice/entity/Hotel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ratings-service/src/main/java/io/micro/ratingsservice/entity/Rating.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ratings-service/src/main/java/io/micro/ratingsservice/repository/RatingRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ratings-service/src/main/java/io/micro/ratingsservice/service/RatingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ratings-service/src/main/java/io/micro/ratingsservice/service/impl/RatingServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ratings-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ratings-service/src/test/java/io/micro/ratingsservice/RatingsServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-registry/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/service-registry/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/service-registry/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-registry/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-registry/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-registry/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-registry/src/main/java/io/micro/serviceregistry/ServiceRegistryApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-registry/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-registry/src/test/java/io/micro/serviceregistry/ServiceRegistryApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-rating-with-security.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/user-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/io/micro/userservice/UserServiceApplication.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/user-service/src/main/java/io/micro/userservice/config/MyConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/io/micro/userservice/controller/UserController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/user-service/src/main/java/io/micro/userservice/entity/Hotel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/io/micro/userservice/entity/Rating.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/io/micro/userservice/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/io/micro/userservice/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/io/micro/userservice/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/io/micro/userservice/external/service/HotelService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/io/micro/userservice/external/service/RatingService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/io/micro/userservice/payload/ApiResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/io/micro/userservice/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/io/micro/userservice/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/io/micro/userservice/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/test/java/io/micro/userservice/UserServiceApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -429,6 +354,14 @@
       <option name="presentableId" value="Default" />
       <updated>1683470322901</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added User Service,Ratings Service, Hotel Service, Registry Server, API-GATEWAY">
+      <created>1683639163603</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683639163603</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
